@@ -1,0 +1,18 @@
+settings:
+  # If headless is false, the browsers will show up on your operating system
+  # If headless is true, the browsers will be opened and ran through the background
+  headless: False
+  # This is the path to the geckodriver.exe file
+  firefox: assets/geckodriver.exe
+  # This is the path where selenium will log to, null makes no log file
+  log: null
+
+bot:
+  # The name of the discord bot just for the console
+  name: Mee6
+  # The direct link to the bots voting page
+  page: https://top.gg/bot/159985870458322944/vote
+
+accounts:
+  # The tokens of the accounts that are being used to vote
+  -
